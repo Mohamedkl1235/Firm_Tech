@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FiremTech - L'innovation au service de l'agriculture avec des solutions technologiques avancées pour une agriculture durable.">
+    <meta name="robots" content="index, follow">
+    <title>FiremTech - Agriculture et Technologie</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Optimisation des icônes et de la performance -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>FiremTech</h1>
+        <p>L'innovation au service de l'agriculture</p>
+    </header>
+
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#services">Nos services
+            <ul class="dropdown">
+                <li><a href="#soil-analysis">Analyse des sols</a></li>
+                <li><a href="#irrigation">Irrigation automatisée</a></li>
+                <li><a href="#ai-management">Gestion par IA</a></li>
+                <li><a href="#training">Formation</a></li>
+            </ul>
+        </a>
+        <a href="#contact">Contact
+            <ul class="dropdown">
+                <li><a href="#email">Email</a></li>
+                <li><a href="#phone">Téléphone</a></li>
+                <li><a href="#address">Adresse</a></li>
+            </ul>
+        </a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>À propos de FiremTech</h2>
+            <p>FiremTech est une entreprise dédiée à la révolution technologique dans le domaine de l'agriculture. Nous combinons innovation et expertise pour offrir des solutions modernes adaptées aux défis agricoles d'aujourd'hui.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nos services</h2>
+            <ul>
+                <li id="soil-analysis">Analyse des sols par capteurs intelligents</li>
+                <li id="irrigation">Systèmes d'irrigation automatisés</li>
+                <li id="ai-management">Gestion des cultures par intelligence artificielle</li>
+                <li id="training">Formation et accompagnement technologique pour agriculteurs</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Vous avez une question ou souhaitez collaborer avec nous ?</p>
+            <form action="#" method="POST">
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Avec Firmetech optimisez votre ferme grâce à la technologie agricole !</p>
+    </footer>
+    
+    <!-- Script pour les fonctionnalités supplémentaires -->
+    <script src="app.js" defer></script>
+</body>
+</html>
